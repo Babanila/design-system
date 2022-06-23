@@ -28,8 +28,9 @@ jobs:
           key: ${{ runner.os }}-node_modules-build-${{ hashFiles('**/package.json', '**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node_modules-build-
+
       - name: Set Yarn version
-        run: mkdir -p ./.yarn/cache && yarn set version 3.2.1
+        run: mkdir -p ./.yarn/cache
 
       - name: Install dependencies
         run: yarn install --immutable
