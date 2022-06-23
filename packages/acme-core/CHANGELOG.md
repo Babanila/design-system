@@ -1,5 +1,11 @@
 # @acme/core
 
+## 1.0.0
+
+### Major Changes
+
+- 43c40b8: Production ready
+
 ## 0.0.2
 
 ### Patch Changes
