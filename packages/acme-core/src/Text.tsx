@@ -5,7 +5,7 @@ export interface TextProps {
 }
 
 export function Text(props: TextProps) {
-  return <div>{props.children}</div>;
+  return <div>{props.children} PPPPP</div>;
 }
 
 Text.displayName = "Button";
