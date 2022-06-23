@@ -3480,6 +3480,11 @@ axobject-query@^2.2.0:
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
+baba@*:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/baba/-/baba-1.0.0.tgz#b040d602685a5d3aaa4daa2e90a4c61edfd5bd65"
+  integrity sha512-DlSW37+qS+KEklOMU91sqyizmI4f9WNQNYEOAiilevlVaPFMTNyXwLh4kE5y6l1mEGXqVpp4zZgbTIT9qqeNNQ==
+
 babanila223@*:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/babanila223/-/babanila223-0.0.2.tgz#e357f4db989a47df0bdf2558c7456e57f46cb9bd"
