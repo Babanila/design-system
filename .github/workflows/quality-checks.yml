@@ -3,7 +3,7 @@ name: Quality Checks
 on: ["push"]
 
 jobs:
-  cypress-tests:
+  CI-CD:
     runs-on: ubuntu-latest
 
     env:
