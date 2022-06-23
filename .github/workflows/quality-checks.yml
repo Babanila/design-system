@@ -3,7 +3,7 @@ name: Quality Checks
 on: ["push"]
 
 jobs:
-  CI-CD:
+  quality-checks:
     runs-on: ubuntu-latest
 
     env:
