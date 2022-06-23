@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["baba"],
+  extends: ["baba-tsconfig/react-library.json"],
 };
