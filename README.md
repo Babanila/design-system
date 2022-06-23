@@ -82,7 +82,7 @@ tsup src/index.tsx --format esm,cjs --dts --external react
 Run `yarn build` to confirm compilation is working correctly. You should see a folder `baba-core/dist` which contains the compiled output.
 
 ```bash
-acme-core
+baba-core
 └── dist
     ├── index.d.ts  <-- Types
     ├── index.js    <-- CommonJS version
@@ -91,7 +91,7 @@ acme-core
 
 ## Components
 
-Each file inside of `acme-core/src` is a component inside our design system. For example:
+Each file inside of `baba-core/src` is a component inside our design system. For example:
 
 ```tsx:baba-core/src/Button.tsx
 import * as React from 'react';
