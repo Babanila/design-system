@@ -1,0 +1,19 @@
+# Settings for Semantic Pull Request checks on Github
+# see: https://github.com/zeke/semantic-pull-requests#configuration
+commitsOnly: true
+allowMergeCommits: true
+allowRevertCommits: true
+types:
+  - feat
+  - fix
+  - docs
+  - style
+  - refactor
+  - perf
+  - test
+  - tests
+  - build
+  - ci
+  - chore
+  - revert
+  - break
