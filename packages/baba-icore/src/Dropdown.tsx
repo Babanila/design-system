@@ -1,9 +1,9 @@
 import * as React  from "react";
 
 export type DropdownProps = {
-  value: Record<any, any>;
+  value: string;
   label?: string;
-  options: Record<any, any>[] | [];
+  options: [];
   onChange?: () => void;
 }
 
@@ -17,7 +17,7 @@ export const Dropdown = ({
     <label>
       {label}
       <select value={value} onChange={onChange}>
-        {options?.map((option) => (
+        {options?.map((option: any) => (
           <option value={option.value}>{option.label}</option>
         ))}
       </select>
