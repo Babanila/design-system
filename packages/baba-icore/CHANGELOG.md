@@ -1,5 +1,11 @@
 # baba-core
 
+## 3.3.0
+
+### Minor Changes
+
+- [#34](https://github.com/Babanila/design-system/pull/34) [`d2e5d83`](https://github.com/Babanila/design-system/commit/d2e5d83e1415ec8bdb81de2e470231da4cead9f3) Thanks [@Babanila](https://github.com/Babanila)! - Add new button
+
 ## 3.2.0
 
 ### Minor Changes
