@@ -1,5 +1,11 @@
 # baba-core
 
+## 3.2.0
+
+### Minor Changes
+
+- [`5c40c7b`](https://github.com/Babanila/design-system/commit/5c40c7b251089967088ef8c39f766fb54f7a4a8d) Thanks [@Babanila](https://github.com/Babanila)! - Add Button2 component
+
 ## 3.1.0
 
 ### Minor Changes
