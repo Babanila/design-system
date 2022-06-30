@@ -1,6 +1,6 @@
 {
   "name": "bab-cypress-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities for semantic Cypress tests",
   "main": "dist/commands.js",
   "module": "dist/commands.js",
