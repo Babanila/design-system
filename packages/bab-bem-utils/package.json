@@ -1,0 +1,19 @@
+{
+  "name": "bab-bem-utils",
+  "version": "1.0.0",
+  "description": "Utilities for working with BEM",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "build": "tsc --pretty",
+    "watch:ts": "chokidar \"src/**/*.ts\" \"src/**/*.tsx\" -c \"yarn build\""
+  },
+  "dependencies": {
+    "@jahed/bem": "1.2.12"
+  },
+  "devDependencies": {
+    "chokidar-cli": "3.0.0"
+  }
+}

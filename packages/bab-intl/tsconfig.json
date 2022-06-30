@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": [
+    "dist",
+    "../../node_modules",
+    "src/scripts",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx"
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "types": [
+      "cypress",
+      "@testing-library/cypress",
+    ]
+  }
+}

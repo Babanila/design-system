@@ -1,0 +1,28 @@
+{
+  "include": ["packages/**/src/**/*.intl.ts"],
+  "exclude": [
+    "node_modules",
+    "**/dist"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "generated/intl",
+    "rootDir": "./packages",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": false,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "allowJs": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "types": [
+      "@types/react",
+      "@types/react-dom"
+    ]
+  }
+}
