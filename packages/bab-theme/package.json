@@ -1,8 +1,9 @@
 {
-  "name": "bab-intl",
+  "name": "bab-theme",
   "version": "1.0.0",
   "private": true,
   "description": "",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
@@ -20,11 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "bab-bem-utils": "*",
-    "bab-date-time": "*",
-    "bab-elements": "*",
-    "i18next": "21.8.5",
-    "i18next-resources-to-backend": "1.0.0",
-    "react-i18next": "11.16.9"
+    "bab-client-cache": "*",
+    "bab-style-system": "*"
   },
   "peerDependencies": {
     "react": "^17.0.0",
@@ -32,10 +30,7 @@
   },
   "devDependencies": {
     "@cypress/react": "5.12.5",
-    "bab-cypress-utils": "*",
-    "bab-theme": "*",
     "@storybook/react": "6.5.6",
-    "@storybook/testing-react": "1.3.0",
     "@types/react": "17.0.45",
     "@types/react-dom": "17.0.17",
     "chokidar-cli": "3.0.0",
