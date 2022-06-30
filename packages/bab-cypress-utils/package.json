@@ -6,7 +6,6 @@
   "module": "dist/commands.js",
   "types": "dist/commands.d.ts",
   "sideEffects": false,
-  "private": true,
   "scripts": {},
   "devDependencies": {
     "@types/cypress": "1.1.3",

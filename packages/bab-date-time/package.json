@@ -5,7 +5,6 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "private": true,
   "scripts": {},
   "dependencies": {
     "luxon": "2.4.0"

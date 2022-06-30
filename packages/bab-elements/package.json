@@ -1,7 +1,6 @@
 {
   "name": "bab-elements",
   "version": "1.0.0",
-  "private": true,
   "description": "Blocks used to compose content pages",
   "main": "dist/index.js",
   "module": "dist/index.js",
