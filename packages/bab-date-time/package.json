@@ -11,7 +11,7 @@
     "watch:ts": "chokidar \"src/**/*.ts\" \"src/**/*.tsx\" -c \"yarn build\""
   },
   "dependencies": {
-    "bab-elements": "workspace:^",
+    "bab-elements": "*",
     "luxon": "2.4.0"
   },
   "peerDependencies": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@cypress/react": "5.12.5",
-    "bab-cypress-utils": "workspace:^",
+    "bab-cypress-utils": "*",
     "@storybook/react": "6.5.9",
     "@types/luxon": "2.3.2",
     "chokidar-cli": "3.0.0",

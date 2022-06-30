@@ -17,7 +17,7 @@
       "cypress",
       "@testing-library/cypress",
       "cypress-file-upload",
-      "@fernarzt/cypress-utils/dist/commands",
+      "bab-cypress-utils/dist/commands",
       "vite-plugin-svgr/client"
     ]
   }
