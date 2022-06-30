@@ -1,0 +1,39 @@
+{
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "module": "es6",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "strict": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+  },
+  "references": [
+    {
+      "path": "./tsconfig.cypress.json"
+    },
+    {
+      "path": "./tsconfig.intl.json"
+    }
+  ]
+}

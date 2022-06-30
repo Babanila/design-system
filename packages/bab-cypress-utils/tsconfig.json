@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "types": [
+      "cypress",
+      "@testing-library/cypress"
+    ]
+  }
+}

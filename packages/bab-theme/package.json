@@ -1,0 +1,39 @@
+{
+  "name": "bab-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build:pp": "concurrently \"yarn build:ts\" \"yarn build:css\" \"yarn build:assets\"",
+    "build:ts": "tsc --pretty",
+    "build:css": "postcss ./src/**/*.css ./src/**/**/*.css ./src/**/**/**/*.css --base ./src -d ./dist",
+    "build:assets": "mkdir -p ./dist/assets && cp -r ./src/assets ./dist",
+    "watch": "concurrently \"yarn watch:ts\" \"yarn watch:css\" \"yarn watch:assets\"",
+    "watch:ts": "chokidar \"src/**/*.ts\" \"src/**/*.tsx\" -c \"yarn build:ts\"",
+    "watch:css": "chokidar \"src/**/*.css\" -c \"yarn build:css\"",
+    "watch:assets": "chokidar \"src/assets/**/*\" -c \"yarn build:assets\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bab-bem-utils": "*",
+    "bab-client-cache": "*",
+    "bab-style-system": "*"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@cypress/react": "5.12.5",
+    "@storybook/react": "6.5.6",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "chokidar-cli": "3.0.0",
+    "concurrently": "7.2.1"
+  }
+}

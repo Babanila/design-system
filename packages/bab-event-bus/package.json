@@ -1,0 +1,22 @@
+{
+  "name": "bab-event-bus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@cypress/react": "5.12.5",
+    "@storybook/react": "6.5.6",
+    "@types/react": "17.0.45",
+    "chokidar-cli": "3.0.0"
+  }
+}

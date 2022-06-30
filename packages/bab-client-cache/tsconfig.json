@@ -1,0 +1,24 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": [
+    "dist",
+    "../../../node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx"
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "types": [
+      "cypress",
+      "@testing-library/cypress",
+      "cypress-file-upload",
+      "bab-cypress-utils/dist/commands",
+      "vite-plugin-svgr/client"
+    ]
+  }
+}

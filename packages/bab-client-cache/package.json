@@ -1,0 +1,22 @@
+{
+  "name": "bab-client-cache",
+  "version": "1.0.0",
+  "description": "Utilities for dealing with persistent storage",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "chokidar-cli": "3.0.0",
+    "luxon": "2.4.0"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@cypress/react": "5.12.5",
+    "bab-cypress-utils": "*",
+    "react": "17.0.2"
+  }
+}
