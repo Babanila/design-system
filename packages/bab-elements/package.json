@@ -22,7 +22,6 @@
   "dependencies": {
     "bab-bem-utils": "*",
     "bab-date-time": "*",
-    "bab-elements": "*",
     "bab-event-bus": "*",
     "bab-intl": "*",
     "bab-style-system": "*",

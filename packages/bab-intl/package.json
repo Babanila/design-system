@@ -21,7 +21,6 @@
   "dependencies": {
     "bab-bem-utils": "*",
     "bab-date-time": "*",
-    "bab-elements": "*",
     "i18next": "21.8.5",
     "i18next-resources-to-backend": "1.0.0",
     "react-i18next": "11.16.9"
