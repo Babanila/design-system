@@ -1,11 +1,10 @@
 {
   "name": "bab-bem-utils",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Utilities for working with BEM",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "private": true,
   "scripts": {},
   "dependencies": {
     "@jahed/bem": "1.2.12"
