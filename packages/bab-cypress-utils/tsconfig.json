@@ -1,12 +1,7 @@
 {
   "extends": "../../tsconfig.json",
-  "exclude": [
-    "dist",
-    "../../node_modules",
-    "**/*.spec.ts",
-    "**/*.spec.tsx",
-    "**/*.stories.tsx"
-  ],
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "rootDir": "src",
     "baseUrl": ".",

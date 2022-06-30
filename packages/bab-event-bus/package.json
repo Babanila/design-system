@@ -6,10 +6,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "scripts": {
-    "build": "tsc --pretty",
-    "watch": "chokidar \"src/**/*.ts\" \"src/**/*.tsx\" -c \"yarn build\""
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "peerDependencies": {
