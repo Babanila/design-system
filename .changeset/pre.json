@@ -18,6 +18,7 @@
     "baba-utils": "0.0.0"
   },
   "changesets": [
-    "brown-cameras-destroy"
+    "brown-cameras-destroy",
+    "perfect-forks-hammer"
   ]
 }
