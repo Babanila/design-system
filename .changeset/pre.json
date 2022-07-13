@@ -17,5 +17,7 @@
     "baba-tsconfig": "0.0.0",
     "baba-utils": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "brown-cameras-destroy"
+  ]
 }
