@@ -1,0 +1,21 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "baba-docs": "0.0.0",
+    "bab-bem-utils": "1.0.1",
+    "bab-client-cache": "1.0.1",
+    "bab-cypress-utils": "1.0.1",
+    "bab-date-time": "1.0.1",
+    "bab-elements": "1.0.1",
+    "bab-event-bus": "1.0.1",
+    "bab-intl": "1.0.1",
+    "bab-style-system": "1.0.1",
+    "bab-theme": "1.0.1",
+    "baba-eslint-config": "0.0.0",
+    "baba-icore": "3.3.0",
+    "baba-tsconfig": "0.0.0",
+    "baba-utils": "0.0.0"
+  },
+  "changesets": []
+}
