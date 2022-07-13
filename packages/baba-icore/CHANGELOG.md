@@ -1,5 +1,11 @@
 # baba-core
 
+## 3.3.1-alpha.1
+
+### Patch Changes
+
+- [#44](https://github.com/Babanila/design-system/pull/44) [`5e3036e`](https://github.com/Babanila/design-system/commit/5e3036e66ba19e31a1fb5be2df26f4c8eb792fa9) Thanks [@Babanila](https://github.com/Babanila)! - Second attempt to publish alpha
+
 ## 3.3.1-alpha.0
 
 ### Patch Changes
