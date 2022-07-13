@@ -1,10 +1,12 @@
 name: Release
 
-on:
-  push:
-    branches:
-      - main
-      - alpha
+on: ['push']
+
+# on:
+#   push:
+#     branches:
+#       - main
+#       - alpha
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
