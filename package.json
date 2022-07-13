@@ -1,7 +1,5 @@
 {
-  "name": "design-system-sample",
-  "version": "1.0.0",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*",
     "apps/*"
